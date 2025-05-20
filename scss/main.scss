@@ -41,11 +41,15 @@ p {
         position:relative;
     }
 
-    .christmas-scene-content{
+.christmas-scene-content{
         height: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+}
+
+.text-justify {
+    text-align: justify;
 }
