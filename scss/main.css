@@ -11994,4 +11994,29 @@ footer.footer {
 p {
   font-family: "Hind madurai", serif;
   font-size: 18px;
+}
+
+.christmas-scene {
+  position: relative;
+}
+.christmas-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/christmas-wallpaper-2009590_1280.jpg);
+  background-size: cover;
+  filter: brightness(0.3);
+}
+.christmas-scene * {
+  position: relative;
+}
+.christmas-scene .christmas-scene-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
